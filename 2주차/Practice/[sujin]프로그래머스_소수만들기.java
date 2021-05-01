@@ -1,5 +1,6 @@
-//import java.util.*;
-
+// import java.util.*;
+// 원래는 3중 for문 대신 조합알고리즘을 사용하려했으나 아직 이해가 안되서 못씀.. 
+// 소수판단isPrime을 에라토스테네스 체로 변경해보기
 class CreateMinority_2 {
 	public boolean isPrime(int number) {
         boolean check = true;
@@ -19,7 +20,7 @@ class CreateMinority_2 {
                 for(int k=j+1; k<n; k++) {
                     int sum = nums[i] + nums[j] + nums[k];
                     if(isPrime(sum)) {
-                        answer++;  answer = count++; 
+                        answer++; 
                     }
                 }
             }
