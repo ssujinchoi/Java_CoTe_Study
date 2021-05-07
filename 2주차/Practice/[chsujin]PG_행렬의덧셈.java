@@ -1,5 +1,5 @@
 import java.util.*;
-
+// 행렬의 합구하기, 행과 열의 크기가 같다.
 class MatrixSum {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = new int[arr1.length][arr1[0].length];
