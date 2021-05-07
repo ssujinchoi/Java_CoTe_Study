@@ -17,6 +17,5 @@ class MatrixSum {
 		int[][] arr1 = {{1,2},{2,3}};
 		int[][] arr2 = {{3,4},{5,6}};
 		C.solution(arr1, arr2);
-//		C.solution([[1,2],[2,3]], [[3,4],[5,6]]);
 	}
 }
